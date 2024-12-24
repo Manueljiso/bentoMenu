@@ -1,8 +1,50 @@
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: rgb(40, 40, 40);
-    --tertiary-color: #444444;
-    --accent-color: #c6ff54;
-    --text-color: #ffffff;
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+    --Purple-100: hsl(254, 88%, 90%);
+    --Purple-500: hsl(256, 67%, 59%);
+    --Yellow-100: hsl(31, 66%, 93%);
+    --Yellow-500: hsl(39, 100%, 71%);
+    --background-color: #ececec;
     font-family: "Roboto", sans-serif;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--black);
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .dashboard {
+    margin: 0;
+    /* width: 100%; */
+    max-width: 500px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .dashboard__bento {
+    list-style:none;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+    /* margin-top: 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .dashboard__bento__purple {
+    display: flex;
+    width: calc(100% - 1rem);
+    padding: 0.75rem;
+    text-align: center;
+    background-color: var(--Purple-500);
+    color: var(--white);
+    border-radius: 0.5rem;
+    justify-content: center;
   }

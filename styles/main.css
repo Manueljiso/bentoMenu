@@ -58,9 +58,9 @@
     row-gap: 1rem;
   }
 
-  .dashboard__bento img {
+  /* .dashboard__bento img {
     width: 60%;
-  }
+  } */
 
   .dashboard__bento a {
     text-decoration: none;
